@@ -9,6 +9,14 @@
   "engines":{
     "node": "10.13.0"
   },
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/OswaldMurphy/kates-bot"
+  },
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
   "author": "Kate",
   "dependencies": {
     "discord.io": "github:woor/discord.io#gateway_v6",
