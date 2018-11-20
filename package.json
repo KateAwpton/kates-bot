@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js
-  },  
+  },
+  "engines":{
+    "node": "10.8.0"
+  },
   "author": "Kate",
   "dependencies": {
     "discord.io": "github:woor/discord.io#gateway_v6",
