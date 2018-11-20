@@ -1,0 +1,15 @@
+{
+  "name": "Kate's Bot",
+  "version": "0.1.0",
+  "description": "Kate's Learning Bot",
+  "main": "index.js",
+  "author": "Kate",
+  "dependencies": {
+    "discord.io": "github:woor/discord.io#gateway_v6",
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
+    "ffmpeg-binaries": "^4.0.0",
+    "opusscript": "0.0.6",
+    "winston": "^3.1.0"
+  }
+}
