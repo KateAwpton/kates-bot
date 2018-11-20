@@ -26,7 +26,7 @@ class InfoAboutMeCommand extends commando.Command
             .setFooter("Thanks for reading! Hopefully you now understand the commands!")
 
 
-        message.channel.sendEmbed(myInfo);
+        message.author.send(myInfo);
     }
 }
 

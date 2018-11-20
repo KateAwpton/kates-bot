@@ -13,11 +13,12 @@ class LeaveChannelCommand extends commando.Command
     }
 
     async run(message, args)
-    {
+    {   
         if(message.guild.voiceConnection)
         {
-            message.guild.voiceConnection.disconnect();
+            message.guild.voiceConnection.disconnect()
         }
+               
         else
         {
             message.reply("I must be in a voice channel for you to use this command!");
