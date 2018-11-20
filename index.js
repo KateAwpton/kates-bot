@@ -21,5 +21,5 @@ bot.on('ready',function(){
     console.log("Ready");
 });
 
-bot.login(TOKEN);
+bot.login(TOKEN.TOKEN);
 
