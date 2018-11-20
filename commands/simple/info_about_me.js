@@ -19,7 +19,7 @@ class InfoAboutMeCommand extends commando.Command
             .setTitle("About me :heart:")
             .addField("!flip", "Flips a coin - good luck :)", true)
             .addField("!roll", "Rolls a 6 sided die.", true)
-            .addField("!join", "Joins the voice channel the commander is in.", true)
+            .addField("!play (if you put a youtube url here, the bot will play)", "Joins the voice channel the commander is in.", true)
             .addField("!leave", "Leaves the voice channel the commander is in.", true)
             .setDescription("Hello, my name is Kate! I am bot.. beep boop.")
             .setColor(0x9370DB)
