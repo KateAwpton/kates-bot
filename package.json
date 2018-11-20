@@ -6,12 +6,12 @@
   "scripts": {
     "start": "node index.js"
   },
-  "engines":{
+  "engines": {
     "node": "10.13.0"
   },
   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/OswaldMurphy/kates-bot"
+    "type": "git",
+    "url": "git+https://github.com/OswaldMurphy/kates-bot"
   },
   "keywords": [
     "heroku",
