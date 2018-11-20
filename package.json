@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Kate's Learning Bot",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js
+  },  
   "author": "Kate",
   "dependencies": {
     "discord.io": "github:woor/discord.io#gateway_v6",
