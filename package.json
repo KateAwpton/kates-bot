@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "engines":{
-    "node": "10.8.0"
+    "node": "10.13.0"
   },
   "author": "Kate",
   "dependencies": {
