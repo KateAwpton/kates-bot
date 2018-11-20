@@ -1,4 +1,4 @@
-const Client = require('discord.js-commando');
+const Commando = require('discord.js-commando');
 const bot = new Commando.Client();
 
 bot.registry.registerGroup('simple', 'Simple');
