@@ -20,5 +20,5 @@ bot.on('ready',function(){
     console.log("Ready");
 });
 
-client.login(process.env.TOKEN);
+bot.login(process.env.TOKEN);
 
