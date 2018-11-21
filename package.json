@@ -19,7 +19,6 @@
   ],
   "author": "Kate",
   "dependencies": {
-    "discord.io": "github:woor/discord.io#gateway_v6",
     "discord.js": "^11.4.2",
     "discord.js-commando": "^0.10.0",
     "ffmpeg-binaries": "^4.0.0",
