@@ -6,7 +6,7 @@ var servers = {};
 function Play(connection, message)
 {
     var server = servers[message.guild.id];
-    server.dipatcher = connection.playStream(YTDL(server.queue[0], {filter: "audioonly", quality: "highestaudio"}));
+    server.dipatcher = connection.playStream(YTDL(server.queue[0], {filter: "audioonly"}));
     server.queue.shift();
     server.dipatcher.on ("end", function(){
         if(server.queue[0])
