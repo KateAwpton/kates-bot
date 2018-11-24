@@ -1,7 +1,6 @@
 const commando = require('discord.js-commando');
 const YTDL = require('ytdl-core');
 const streamOptions = { seek: 0, volume: 1 };
-const dispatcher = connection.playStream(stream, streamOptions);
 var servers = {};
 
 function Play(connection, message)
